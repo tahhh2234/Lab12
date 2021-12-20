@@ -30,7 +30,6 @@ int findYugiAction(int s){
 	if(s == 9) return 2; 
 	else if(s < 6) return 1; 
 	else{
-		srand(time(0));
 		int b = rand()%100 + 1;
 		if(b > 31) 
 			return 1;
